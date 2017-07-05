@@ -9,8 +9,12 @@ var dirty_clothes = [
 /* YOUR CODE HERE */
 function clean(clothing_item){
     // return clean_clothing_item;
+    return clothing_item.replace("*","");
 }
 
+// function iron(clothing_item){
+//     return clothing_item.toLowerCase();
+// }
 
 /* PRINT RESULT */
 console.log("--> Finished running clean.js");
